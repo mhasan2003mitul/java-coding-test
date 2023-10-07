@@ -1,0 +1,56 @@
+body {
+    background-color: azure;
+}
+
+.container {
+    padding-top: 10px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+fieldset {
+    margin-top: 1%;
+    padding: 0 10px 10px;
+    border: 1px solid #666;
+    border-radius: 8px;
+    padding-top: 10px;
+}
+
+header{
+    background:#0f1f38;
+    color:white;
+    padding:10px 20px;
+    text-align: center;
+    font-size: xx-large;
+    border-radius: 8px;
+}
+
+table {
+    border: 0px solid;
+    width: 100%;
+    table-layout: fixed;
+}
+
+td.general {
+    border: 1px solid;
+}
+
+td.width {
+    width: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-wrap {
+    word-wrap: break-word;
+}
