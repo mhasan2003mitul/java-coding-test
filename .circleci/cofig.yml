@@ -1,0 +1,11 @@
+version: 2.0
+
+jobs:
+  build:
+    docker:
+      - image: openjdk:17
+    steps:
+      - checkout
+      - run:
+          name: maven-install
+          command: ./mvn-install.sh
